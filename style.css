@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar starts */
+#navbar{
+    width: 100%;
+    height: 28%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+}
+
+
+#element-holder {
+display: flex;
+flex-direction: row;
+}
+
+
+.item{
+margin: 50px 23px;
+list-style: none;
+transition: all 2s linear;
+border-radius: 7px;
+}
+
+
+.item:hover{
+text-decoration: underline;
+background-color: grey;
+}
+
+
+#element-holder li a{
+color: black;
+text-decoration: none;
+font-size: 1.3rem;
+}
+
+
+
+
+/* image-container starts */
+#image-container{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    z-index: -1;
+   animation: images 15s ease-in-out 0s infinite; 
+}
+@keyframes images {
+    0%{
+        background: url(Images/Bg1.jpg) center center fixed no-repeat ;
+        background-size: cover;
+    }
+    30%{
+        background: url(Images/Bg2.jpg) center center fixed no-repeat ;
+        background-size: cover;
+    }
+    60%{
+        background: url(Images/Bg3.jpg) center center fixed no-repeat ;
+        background-size: cover;
+        
+    }
+    90%{
+        background: url(Images/Bg4.jpg) center center fixed no-repeat ;
+        background-size: cover;
+
+    }
+    95%{
+        background: url(Images/Bg5.jpg) center center fixed no-repeat ;
+        background-size: cover;
+
+    }
+}
+
+
+
+
+/* Image container ends */
+
+
+/* About starts */
+
+
+#about{
+    color: white;
+    width: 100vw;
+    height: 700px;
+    position: relative;
+    top: 200px;
+    background: rgba(0, 0, 0, 0.7) url(Images/Bg4.jpg) center center fixed no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    line-height: 02em;
+}
+
+
+.about-con{
+margin: 5px;
+
+}
+
+
+
+#h1{
+    font-size: 50px;
+    
+    
+}
+#h1-con{
+    height: 32px;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#h2{
+    margin-left: 30px;
+    
+}
+#p1-con{
+    width: 500px;
+    height: 100px;
+    color: black;
+    background-color: white;
+}
+#h2p2-con{
+    position: relative;
+    height: 367px;
+    width: 200px;
+    float: right;
+    border: 4px solid red;
+    border-radius: 7px;
+    margin-right: 40px;
+    color: black;
+    background-color: white;
+}
+
+#p1-con{
+    border: 4px solid red;
+    border-radius: 7px;  
+    height: 180px;
+    margin-top: 5px;
+    color: black;
+    background-color: white;
+}
+
+#p3h4con{
+    border: 4px solid green;
+    border-radius: 7px;  
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 10px;
+    color: black;
+    background-color: white;
+}
+#p4h5con{
+    border: 4px solid green;
+    border-radius: 7px;
+    height: 300px;
+    width: 500px;
+    margin-top: 10px;  
+    color: black;
+    background-color: white;
+}
+
+/* About ends */
+
+
+ /* Rooms start */
+ #rooms{
+width: 100vw;
+height: 900px;
+ }
+
+#room1{
+    width: 100vw;
+    height: 515px;
+    background:linear-gradient(rgb(255, 0, 0),rgb(38, 0, 255));
+    color: white;
+  margin-top: 3px;
+     border-radius:7px;
+   
+}
+
+.Hotel-r-t{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.Hotel-r{
+  display: flex;
+  flex-direction: column;
+    
+}
+
+#Img-con1{
+    height: 100%;
+    width: 400px;
+    position: relative;
+    top: 198px;
+    border-radius: 7px;
+}
+
+#text-con1{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    left: 400px;
+    bottom: 130px;
+}
+
+#room2{
+    width: 100vw;
+    height:268px;
+    background:linear-gradient(rgb(119, 0, 255),rgb(191, 0, 255));
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#Img-con2{
+    height: 100%;
+    width: 400px;
+    position: relative;
+    top: 0px;
+}
+
+#text-con2{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    left: 400px;
+    bottom: 272px;
+}
+
+#room3{
+    width: 100vw;
+    height:240px;
+    background:linear-gradient(rgb(0, 0, 0),rgb(85, 0, 255));
+    color: white;
+    margin-top: 10px;
+border-radius:7px;
+}
+
+#Img-con3{
+    height: 100%;
+    width: 400px;
+    position: relative;
+    top: 0px;
+}
+
+#text-con3{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    left: 400px;
+    bottom: 243px;
+
+}
+
+#room4{
+    width: 100vw;
+    height:584px;
+    background:linear-gradient(black,darkblue);
+    color: white;
+    margin-top: 10px;
+    border-radius:7px;
+}
+
+#Img-con4{
+    height: 100%;
+    width: 400px;
+    position: relative;
+    top: 0px;
+}
+
+#text-con4{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    left: 400px;
+    bottom: 588px;
+
+}
+#room5{
+    width: 100vw;
+    height:890px;
+    background:linear-gradient(black,darkblue);
+    color: white;
+    margin-top: 10px;
+    border-radius:7px;
+}
+
+#Img-con5{
+    height: 100%;
+    width: 400px;
+    position: relative;
+    top: 0px;
+}
+
+#text-con5{
+    position: relative;
+    height: 100%;
+    width: 400px;
+    left: 400px;
+    bottom: 880px;
+
+}
+#textcon-of-p1{
+font-size: medium;
+}
+
+
+
+
+/* room ends */
+
+
+ /* book starts */
+
+ #book{
+color: white;
+width: 100vw;
+height: 600px;
+display: flex;
+background: rgba(0, 0, 0, 0.7) url(Images/Bg5.jpg) center center fixed no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+ }
+
+
+
+ #fieldset{
+    
+    color: black;
+    display: flex;
+    width: 100vw;
+    width: 500px;
+    border: 7px solid darkgreen;
+    margin:auto;
+    padding: 4px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    
+ }
+ legend{
+    font-size: 50px;
+ }
+
+ .input-areas{
+    border: 4px solid;
+    border-radius: 7px;
+    border-color: darkgreen;
+    height: 35px;
+    width: 100%;
+ }
+
+
+
+#textarea{
+  height:100px ;  
+}
+
+ #submit{
+    width: 100px;
+    height: 30px;
+ }
+ #submit:hover{
+   cursor: pointer;
+
+ }
+
+ /* book ends */
+
+ /* footer starts */
+
+
+ #footer{
+    color: white;
+    background-color: rgb(19, 11, 89);
+    height: 500px;
+    width: 100vw;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+ }
+
+ #footcol1{
+    height: 340px;
+    width: 200px;
+   
+    line-height: 1.9em;
+ }
