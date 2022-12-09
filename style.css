@@ -281,7 +281,9 @@ border-radius:7px;
  
     height: 100%;
     width: 400px;
-   
+    position: relative;
+    bottom: 241px;
+    left: 390px;
 
 }
 
