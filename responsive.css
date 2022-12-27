@@ -1,274 +1,340 @@
-@media(max-width:634px){
-    #element-holder {
-        display: flex;
-        flex-direction: column;
-        }
-        .item{
-            margin: 5px ;
-            list-style: none;
-            transition: all 2s linear;
-            border-radius: 7px;
-            }
-
-            #element-holder li a{
-                font-size: 1.2rem;
-                }
-            }
-
-            @media(max-width:230px){
-
-                #text-con1{
-                    height: 500px;
-                 
-                    
-                    width: 100px;
-                   
-                    font-size: 1.8rem;
-                }
-            }
-
-@media(max-width:784px){
-
-
-
-#room1{
-display: flex;
-flex-direction: column;
-height: 741px;
-width: 1000px;
-}
-
-
-#img-con1{
-height: 190px;
-width: 111px;
-}
-
-
-#text-con1{
-    height: 70%;
-    bottom: -32px;
-    
-    width: 90%;
-    left: 8px;
-    overflow: scroll;
-    font-size: 1.7rem;
-}
-#room2{
-display: flex;
-flex-direction: column;
-height: 403px;
-width: 1000px;
-}
-
-
-#img-con2{
-height: 190px;
-width: 111px;
-}
-
-
-#text-con2{
-    height: 270%;
-    bottom: 23px;
-   
-    width: 90%;
-    left: 7px;
-    overflow: scroll;
-    font-size: 25px;
-}
-#room3{
-display: flex;
-flex-direction: column;
-height: 441px;
-width: 1000px;
-}
-
-
-#img-con3{
-height: 190px;
-width: 111px;
-}
-
-
-#text-con3{
-    height: 207px;
-    bottom: 5px;
-  
-    width: 543px;
-    left: 10px;
-    overflow: scroll;
-    font-size: 25px;
-}
-
-#room4{
-display: flex;
-flex-direction: column;
-height: 900px;
-width: 1000px;
-}
-
-
-#img-con4{
-height: 190px;
-width: 111px;
-}
-
-
-#text-con4{
-    height: 207px;
-    bottom: 104px;
-    width: 543px;
-    left: 7px;
-    overflow: scroll;
-    font-size: 25px;
-}
-
-#room5{
-display: flex;
-flex-direction: column;
-height: 1300px;
-width: 1000px;
-}
-
-
-#img-con5{
-height: 190px;
-width: 111px;
-}
-
-
-#text-con5{
-    height: 207px;
-    bottom: 104px;
-    width: 543px;
-    left: 7px;
-    overflow: scroll;
-    font-size: 25px;
-}
+@media (max-width:307px) {
+    .item{
+        margin: 20px;
     }
-
-   
-
-
-@media(max-width:721px){
-   
-
-    .about-con{
-        font-size: 1.3rem;
+}
+@media (max-width:578px) {
+    #slideshow{
+        width: 400px;
     }
-            }
-
-
-
-@media(max-width:784px){
-
-    #roomnoonezerotwo{
-        height: 50%;
-       
-     } 
-     #roomnoonezerothree{
-        height: 70%;
-     }
-
-   #about{
-    width: 1000px;
-   }
-
-
-   #image-container{
-    width: 1000px;
-    height: 1000px;
-   }
-
-   #footer{
-    width: 1000px;
-   }
-    #book{
-        width: 1000px;
+}
+@media (max-width:458px) {
+    #slideshow{
+        width: 380px;
     }
-
-    .Hotel-r-t{
+    #img4{
+        
+            width: 24.2%;
+          
+        
+    }
+}
+@media (max-width:440px) {
+    #slideshow{
+        width: 340px;
+        height: 400px;
+    }
+    #img4{
+        
+            width: 24.2%;
+          
+        
+    }
+}
+@media (max-width:368px) {
+    #slideshow{
+        width: 315px;
+        height: 350px;
+    }
+    #img4{
+        
+            width: 24.2%;
+          
+        
+    }
+}
+@media (max-width:342px) {
+    #slideshow{
+        width: 280px;
+        height: 300px;
+    }
+    #img4{
+        
+            width: 24.1%;
+          
+        
+    }
+}
+@media (max-width:272px) {
+    #slideshow{
+        width: 230px;
+        height: 250px;
+    }
+    #img4{
+        
+            width: 23.7%;
+          
+        
+    }
+    #logo{
+        height: 120px;
+        width: 130px;
+    }
+    .navbar{
+        width: 120%;
+    }
+    .item{
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}
+@media (max-width:299px)  {
+    .navbar{
         width: 100%;
     }
-   }
-@media(max-width:390px){
-  
-
-
-   #image-container{
-    
-    height: 1000px;
-   }
-
-
-   }
-
-
-
-
-
-@media(max-width:486px){
-    #element-holder li a{
-        font-size: 25px;
-        }
-
-
-        .about-con{
-            font-size: 1.5rem;
-        }
+}
+@media (max-width:207px)  {
+    .navbar{
+        width: 110%;
+    }
+}
+@media (max-width:223px)  {
+    #slideshow{
+        width: 210px;
+        height: 230px;
+    }
+    .slideshow{
+        width: 160px;
+    }
+    #img4{
+        
+        width: 23.2%;
+}
+    #img3{
+        
+        width: 24.2%;
+}
+}
+@media (max-width:290px) {
+    .sectionc{
+        width: 190px;
+    }
+}
+@media (max-width:169px) {
+    .navbar{
+        width: 190px;
+    }
 }
 
-
-@media(max-width:395px){
-   
-
-        .about-con{
-            font-size: 1.6rem;
-        }
+@media (max-width:1024px) {
+    #st-rooms{
+        height: 880px;
+    }
 }
-
-
-
-
-
-
-@media(max-width:1277px){
+@media (max-width:686px) {
+    #st-rooms{
+        height: 1297px;
+    }
+}
+@media (max-width:206px) {
+    #st-rooms{
+   width: 110%;
+    }
+    .dx-rooms{
+        width: 110%;  
+    }
+    .rs-room{
+        width: 110%;
+    }
     #about{
-   display: flex;
-  flex-direction: column;
-  height: 1300px;
+        width: 110%;
     }
-    .about-con{
-        position: relative;
-        left: 10px;
-        overflow: scroll;
+    .bookcon{
+        width: 110%;
     }
 }
-
-
-@media(max-width:374px){
-    #element-holder li a{
-        font-size: 30px;
-        }
+@media (max-width:186px) {
+    #st-rooms{
+   width: 130%;
+    }
+    .dx-rooms{
+        width: 130%;  
+    }
+    .rs-room{
+        width: 130%;
+    }
+    #about{
+        width: 130%;
+    }
+    .bookcon{
+        width: 130%;
+    }
 }
+@media (max-width:147px) {
+    #st-rooms{
+   width: 150%;
+    }
+    .dx-rooms{
+        width: 150%;  
+    }
+    .rs-room{
+        width: 150%;
+    }
+    #about{
+        width: 150%;
+    }
+    .bookcon{
+        width: 150%;
+    }
+}
+@media (max-width:126px) {
+    #st-rooms{
+   width: 170%;
+    }
+    .dx-rooms{
+        width: 170%;  
+    }
+    .rs-room{
+        width: 170%;
+    }
+    #about{
+        width: 170%;
+    }
+    .bookcon{
+        width: 170%;
+    }
+}
+@media (max-width:107px) {
+    #st-rooms{
+   width: 190%;
+    }
+    .dx-rooms{
+        width: 190%;  
+    }
+    .rs-room{
+        width: 190%;
+    }
+    #about{
+        width: 190%;
+    }
+    .bookcon{
+        width: 190%;
+    }
+}
+@media (max-width:686px) {
+    .dx-rooms{
+  height: 1960px;
+    }
+}
+@media (max-width:225px) {
+    .dx-rooms{
+  position: relative;
+  top: 18px;
+    }
+    #st-rooms{
+      height: 1334px;
+         }
+}
+@media (max-width:183px) {
+    .dx-rooms{
+        height: 2156px;
+        background-color: #ffffff;
+    }
+    .dxroom-4{
+        height: 600px;
+    }
+}
+@media (max-width:188px) {
+    .navbar{
+        width: 210px;
+    }
+}
+@media (max-width:235px) {
 
+    .dx-rooms{
+        height: 2186px;
+        background-color: #ffffff;
+    }
+    .dxroom-4{
+       
+        height: 600px;
+      
+    }
+    .dxroom-4textcon{
+        height: 242px;  
+    }
+}
+@media (max-width:280px) {
 
-@media(max-width:242px){
-   #fieldset{
-    position: relative;
-    right: 150px;
+   .rs-room{
+    height:1162px ;
    }
 }
-@media(max-width:542px){
-    #text-con5{
-    font-size: 30px;
+@media (max-width:157px) {
+
+   .rs-room{
+    height:1199px ;
+   }
+}
+@media (max-width:119px) {
+
+   .rs-room{
+    height:1250px ;
+   }
+   .rsroom-1{
+    height: 1124px;
+   }
+   .rsroom-1textcon{
+    height: 511px;
+   
+}
+}
+@media (max-width:710px) {
+    #about{
+        height: 1622px;
     }
-    #footer{
-        font-size: 30px;
+  
+}
+@media (max-width:297px) {
+    #about{
+        height: 1822px;
     }
-    .input-areas{
-        width: 100%;
-        font-size: 30px;
+    .NMH{
+        height: 700px;
     }
 }
+@media (max-width:217px) {
+    #about{
+        height: 1922px;
+    }
+    .NMH{
+        height: 800px;
+    }
+}
+@media (max-width:183px) {
+    #about{
+        height: 2222px;
+    }
+    .NMH{
+        height: 1100px;
+    }
+  
+}
+@media (max-width:155px) {
+   .Naggar{
+    height: 550px;
+   }
+  
+}
+@media (max-width:155px) {
+   .Naggar{
+    height: 550px;
+   }
+  
+}
+@media (max-width:757px) {
+    footer{   
+        display: flex;   
+        flex-direction:  column;      
+    }
+  
+}
+@media (max-width:451px) {
+    .footer{   
+        height: 600px;
+        flex-direction:  column;      
+    }
+  
+}
+
