@@ -1,426 +1,615 @@
 *{
-    margin: 0px;
     padding: 0px;
-    font-style: italic;
+    margin: 0px;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
 }
-
-/* navbar starts */
-#navbar{
+body{
+    background-color: #272727;
+}
+.navbar{
+    background-color: white;
     width: 100%;
-    height: 30%;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    display: flex;
-}
-
-
-#element-holder {
-display: flex;
-flex-direction: row;
-}
-
-
-.item{
-margin: 50px 23px;
-list-style: none;
-transition: all 2s linear;
-border-radius: 7px;
-}
-
-
-.item:hover{
-text-decoration: underline;
-background-color: grey;
-}
-
-
-#element-holder li a{
-color: black;
-text-decoration: none;
-font-size: 1.3rem;
-}
-
-
-
-
-/* image-container starts */
-#image-container{
-    height: 500px;
-    width: 100%;
-    position: relative;
-    top: 150px;
-    z-index: -1;
-   animation: images 15s ease-in-out 0s infinite; 
-}
-@keyframes images {
-    0%{
-        background: url(Images/Bg1.jpg) center center fixed no-repeat ;
-        background-size: cover;
-    }
-    30%{
-        background: url(Images/Bg2.jpg) center center fixed no-repeat ;
-        background-size: cover;
-    }
-    60%{
-        background: url(Images/Bg3.jpg) center center fixed no-repeat ;
-        background-size: cover;
-        
-    }
-    90%{
-        background: url(Images/Bg4.jpg) center center fixed no-repeat ;
-        background-size: cover;
-
-    }
-    95%{
-        background: url(Images/Bg5.jpg) center center fixed no-repeat ;
-        background-size: cover;
-
-    }
-}
-
-
-
-
-/* Image container ends */
-
-
-/* About starts */
-
-
-#about{
-    color: white;
-    width: 100vw;
-    height: 700px;
-    position: relative;
-    top: 200px;
-    background: rgba(0, 0, 0, 0.7) url(Images/Bg4.jpg) center center fixed no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    line-height: 02em;
-}
-
-
-.about-con{
-margin: 5px;
-
-}
-
-
-
-#h1{
-    font-size: 50px;
-    
-    
-}
-#h1-con{
-    height: 32px;
-    width: 50px;
-    margin: auto;
- position: relative;
- top: 20px;
-}
-
-#h2{
-    margin-left: 30px;
-    
-}
-#p1-con{
-    width: 500px;
-    height: 100px;
-    color: black;
-    background-color: white;
-}
-#h2p2-con{
-    position: relative;
-    height: 367px;
-    width: 200px;
-    float: right;
-    border: 4px solid red;
-    border-radius: 7px;
-    margin-right: 40px;
-    color: black;
-    background-color: white;
-}
-
-#p1-con{
-    border: 4px solid red;
-    border-radius: 7px;  
-    height: 180px;
-    margin-top: 5px;
-    color: black;
-    background-color: white;
-}
-
-#p3h4con{
-    border: 4px solid green;
-    border-radius: 7px;  
-    height: 300px;
-    width: 500px;
-    float: right;
-    margin-right: 10px;
-    color: black;
-    background-color: white;
-}
-#p4h5con{
-    border: 4px solid green;
-    border-radius: 7px;
-    height: 300px;
-    width: 500px;
-    margin-top: 10px;  
-    color: black;
-    background-color: white;
-}
-
-#h3{
-    line-height: 40px;
-}
-/* About ends */
-
-
- /* Rooms start */
-
- #roomnoonezerotwo{
-    height: 62%;
-    position: relative;
-    bottom: 2px;
- }
- #roomnoonezerothree{
-    height: 100%;
-    position: relative;
-    bottom: 2px;
- }
-
- #rooms{
-width: 100vw;
-height: 900px;
- }
-
-#room1{
-    width: 100vw;
-    height: 517px;
-    background:linear-gradient(rgb(255, 0, 0),rgb(38, 0, 255));
-    color: white;
-  margin-top: 3px;
-     border-radius:7px;
-   
-}
-
-.Hotel-r-t{
-    display: flex;
-    flex-wrap: wrap;
-   flex-direction:column;
-    
-}
-
-.Hotel-r-t{
+    height: 210px;
+    position: sticky;
+    top: 0px;
     display: flex;
     flex-direction: column;
-}
-
-#Img-con1{
-    height: 100%;
-    width: 400px;
-    position: relative;
-    top: 198px;
-    border-radius: 7px;
-}
-
-#text-con1{
-    position: relative;
-    height: 100%;
-    width: 90%;
-    left: 400px;
-    bottom: 323px;
-}
-
-#room2{
-    width: 100vw;
-    height:270px;
-    background:linear-gradient(rgb(119, 0, 255),rgb(191, 0, 255));
-    color: white;
-    margin-top: 10px;
-    border-radius: 7px;
-}
-
-#Img-con2{
-    height: 100%;
-    width: 400px;
-    position: relative;
-    top: 0px;
-    bottom: 20px;
-}
-
-#text-con2{
-    position: relative;
-    height: 100%;
-    width: 90%;
-    left: 410px;
-    bottom: 272px;
-}
-
-#room3{
-    width: 100vw;
-    height:240px;
-    background:linear-gradient(rgb(0, 0, 0),rgb(85, 0, 255));
-    color: white;
-    margin-top: 10px;
-border-radius:7px;
-}
-
-#Img-con3{
-    height: 100%;
-    width: 400px;
-    position: relative;
-    top: 0px;
-}
-
-#text-con3{
- 
-    height: 100%;
-    width: 400px;
-    position: relative;
-    bottom: 241px;
-    left: 390px;
-
-}
-
-#room4{
-    width: 100vw;
-    height:584px;
-    background:linear-gradient(black,darkblue);
-    color: white;
-    margin-top: 10px;
-    border-radius:7px;
-}
-
-#Img-con4{
-    height: 100%;
-    width: 400px;
-    position: relative;
-    top: 0px;
-}
-
-#text-con4{
-    position: relative;
-    height: 100%;
-    width: 400px;
-    left: 400px;
-    bottom: 588px;
-
-}
-#room5{
-    width: 100vw;
-    height:890px;
-    background:linear-gradient(black,darkblue);
-    color: white;
-    margin-top: 10px;
-    border-radius:7px;
-}
-
-#Img-con5{
-    height: 100%;
-    width: 400px;
-    position: relative;
-    top: 0px;
-}
-
-#text-con5{
-    position: relative;
-    height: 100%;
-    width: 400px;
-    left: 400px;
-    bottom: 880px;
-
-}
-#textcon-of-p1{
-font-size: medium;
-}
-
-
-
-
-/* room ends */
-
-
- /* book starts */
-
- #book{
-color: white;
-width: 100vw;
-height: 600px;
-display: flex;
-background: rgba(0, 0, 0, 0.7) url(Images/Bg5.jpg) center center fixed no-repeat;
-background-size: cover;
-background-blend-mode: darken;
- }
-
-
-
- #fieldset{
-    
-    color: black;
-    display: flex;
-    width: 100vw;
-    width: 500px;
-    border: 7px solid darkgreen;
-    margin:auto;
-    padding: 4px;
-    border-radius: 10px;
+    z-index: 1;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: white;
-    position: relative;
-    
- }
- legend{
-    font-size: 50px;
- }
-
- .input-areas{
-    border: 4px solid;
-    border-radius: 7px;
-    border-color: darkgreen;
-    height: 35px;
-    width: 100%;
- }
-
-
-
-#textarea{
-  height:100px ;  
 }
 
- #submit{
-    width: 100px;
-    height: 30px;
- }
- #submit:hover{
-   cursor: pointer;
+.imgitem{
+    list-style: none;
+}
 
- }
-
- /* book ends */
-
- /* footer starts */
-
-
- #footer{
-    color: white;
-    background-color: rgb(19, 11, 89);
-    height: 500px;
-    width: 100vw;
+.itemcon{
     display: flex;
-   align-items: center;
-    flex-direction: column;
- }
+    flex-direction: row;
+}
+.item{
+    margin: 23px;
+    list-style: none;
+}
+.item a{
+    text-decoration:  none;
+    color: black;
+}
+.item a:hover{
+    text-decoration: underline;
+}
 
- #footcol1{
-    height: 340px;
-    width: 200px;
+#slideshow{
+height: 450px;
+width: 500px;
+border: 10px solid white;
+border-radius: 30px;
+margin: 20px auto;
+box-shadow: 5px 10px 8px rgb(0, 0, 0);
+overflow: hidden;
+}
+.slides{
+    height: 100%;
+    width: 400%;
    
-    line-height: 1.9em;
- }
+    position: relative;
+    animation: slides 20s linear infinite;
+}
+@keyframes slides {
+    0%{       
+left: 0;     
+    }
+    20%{
+      left:   0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: 0;
+    }
+
+}
+#img1{
+    width: 24.89%;
+    height: 100%;
+}
+#img2{
+    width: 24.8%;
+    height: 100%;
+}
+#img3{
+    width: 25%;
+    height: 100%;
+}
+#img4{
+    width: 24.49%;
+    height: 100%;
+}
+
+.sectionc{
+    height: 260px;
+    width: 290px;
+    border: 5px solid  blue;
+    background: white;
+    display: flex;
+    color: black;
+    margin: 10px auto;
+    box-shadow: 20px 10px 8px rgb(0, 0, 0);
+}
+
+.roomst-one{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.roomst-two{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.roomst-three{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+#st-rooms{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border: 5px solid blue;
+   
+   
+}
+.st-roomscon{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.roomst-one-imgcon{
+    height: 200px;
+    width: 100%;
+}
+#img11{
+    height: 100%;
+    width: 100%;
+}
+#img12{
+    height: 100%;
+    width: 100%;
+}
+#img13{
+    height: 100%;
+    width: 100%;
+}
+.roomst-one-textcon{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+
+.roomst-one-imgcontwo{
+    width: 100%;
+    height: 200px;
+}
+.roomst-one-textcontwo{
+    width: 100%;
+    height: 202px;
+    background-color: #272727;
+    color: #fff;
+    
+}
+
+.roomst-one-textconthree{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+
+.roomst-one-imgconthree{
+    width: 100%;
+    height: 200px;
+}
+
+
+.btn-1{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-1 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-1 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.btn-2{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-2 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-2 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.btn-3{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-3 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-3 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.h11{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center;
+}
+
+
+.dx-rooms{
+    background-color: white;
+    border: 5px solid blue;
+    margin-top: 10px;
+    width: 100%;
+    height: 1065px;
+}
+.dx-roomscon{
+ height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.dxroom-1{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.dxroom-2{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.dxroom-3{
+    width: 330px;
+    height: 410px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.dxroom-4{
+    width: 330px;
+    height: 565px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.dxroom-1imgcon{
+    width: 100%;
+    height: 200px;
+}
+.dxroom-2imgcon{
+    width: 100%;
+    height: 200px;
+}
+.dxroom-3imgcon{
+    width: 100%;
+    height: 200px;
+}
+.dxroom-4imgcon{
+    width: 100%;
+    height: 355px;
+}
+.dxroom-1textcon{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+.dxroom-2textcon{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+.dxroom-3textcon{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+.dxroom-4textcon{
+    height: 202px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+    
+}
+
+#img-21{
+height: 100%;
+width: 100%;
+}
+#img-22{
+height: 100%;
+width: 100%;
+}
+#img-23{
+height: 100%;
+width: 100%;
+}
+#img-24{
+height: 50%;
+width: 100%;
+}
+#img-241{
+height: 50%;
+width: 100%;
+}
+.btn-4{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-4 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-4 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.btn-5{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-5 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-5 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.btn-6{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-6 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-6 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+.btn-7{
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn-7 a{
+   color: black;
+   text-decoration: none;
+}
+.btn-7 a:hover{
+   color: black;
+   text-decoration: underline;
+}
+
+.rs-room{
+    background-color: white;
+    border: 5px solid blue;
+    margin-top: 10px;
+    width: 100%;
+    height: 1125px;
+}
+.rs-roomcon{
+    height: 100%;
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.rsroom-1{
+    width: 330px;
+    height: 1073px;
+    border: 4px solid grey;
+    margin: 4px;
+}
+.rsroom-1imgcon1{
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 202px;
+    display: block;
+}
+.rsroom-1imgcon2{
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 202px;
+    display: block;
+}
+.rsroom-1imgcon3{
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 202px;
+}
+.rsroom-1textcon{
+    height: 460px;
+    width: 100%;
+    background-color: #272727;
+    color: white;
+}
+
+#img-31{
+    height: 100%;
+    width: 100%;
+    }
+#img-32{
+    height: 100%;
+    width: 100%;
+    }
+#img-33{
+    height: 100%;
+    width: 100%;
+    }
+    .btn-8{
+        list-style: none;
+        background-color: white;
+        height: 50px;
+        width: 100px;
+        margin: 20px auto;
+        border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .btn-8 a{
+       color: black;
+       text-decoration: none;
+    }
+    .btn-8 a:hover{
+       color: black;
+       text-decoration: underline;
+    }
+
+    #about{
+        background-color: white;
+        margin-top: 10px;
+        border: 5px solid blue;
+        width: 100%;
+        height: 1200px;
+    }
+    .aboutcon{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services{
+    border: 5px solid grey;
+    background: #272727;
+    color: white;
+    height: 500px;
+    width: 350px;
+    }
+    .Naggar{
+    border: 5px solid grey;
+    background: #272727;
+    color: white;
+    height: 500px;
+    width: 350px;
+    }
+    .NMH{
+    border: 5px solid grey;
+    background: #272727;
+    color: white;
+    height: 500px;
+    width: 350px;
+    }
+    .naggarimgcon{
+        height: 200px;
+        width: 100%;
+    }
+    #img-41{
+        width: 100%;
+        height: 100%;
+    }
+
+    #book{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    .input-areas{
+width: 100%;
+height: 40px;
+    }
+
+    #textarea{
+        height: 100px;
+    }
+    .bookcon{
+        background:#272727;
+        height: 500px;
+        width: 100%;
+        border: 5px solid grey;
+        margin: auto;
+        margin-top: 10px;
+        color: #fff;
+    }
+
+
+   .footer{
+    height: 300px;
+    width: 100%;
+    background-color:#24262b;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 15px;
+    justify-content: center;
+    
+   }
+   .footdiv{
+    margin:20px;
+   }
+   .review a{
+  text-decoration: none;
+  color: white;
+   }
+   .review a:hover{
+  text-decoration: underline;
+  color: white;
+   }
