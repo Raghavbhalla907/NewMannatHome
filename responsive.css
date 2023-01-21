@@ -280,9 +280,9 @@
    
 }
 }
-@media (max-width:710px) {
+@media (max-width:1059px) {
     #about{
-        height: 1622px;
+        height: 1100px;
     }
   
 }
@@ -309,6 +309,13 @@
     .NMH{
         height: 1100px;
     }
+  
+}
+@media (max-width:709px) {
+    #about{
+        height: 1690px
+    }
+   
   
 }
 @media (max-width:155px) {
