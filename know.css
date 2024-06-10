@@ -1,0 +1,230 @@
+/* Environment */
+
+body {
+    background-color: #c6c7bb;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    /* Environment Ends */
+    
+    /* Navbar starts */
+    
+    .navbar {
+        height: 100px;
+        width: 60vw;
+        position: relative;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        height: 100%;
+        font-size: 20px;
+    }
+    
+    .items {
+        list-style: none;
+    }
+    
+    .items a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .items a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Navbar ends */
+    
+    /* Main starts */
+    
+    .main {
+        height: 150vh;
+        width: 100vw;
+        background: url(Images/A_bc_images.jpg);
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .box {
+        background: rgba(0, 0, 0, 0.6);
+        height: 150vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+    
+    /* Main ends */
+    
+    
+/* responsive navbar starts */
+
+
+#check {
+    display: none;
+}
+
+#checkbox {
+    color: white;
+    font-size: 35px;
+    display: none;
+    position: relative;
+    z-index: 10000;
+}
+
+@media screen and (max-width:630px) {
+
+    .navbar {
+        min-height: 80vh;
+        width: 100vw;
+        flex-direction: column;
+        gap: 15px;
+        justify-items: center;
+        position: absolute;
+        left: 200%;
+        transition: 0.5s;
+        background-color: #cc7a00;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .logo img {
+        padding-top: 15px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        position: relative;
+        top: 100px;
+    }
+
+    #checkbox {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+    }
+
+    #check:checked~.navbar {
+        left: 0px;
+    }
+
+    #check:not(:checked)~.navbar {
+        left: -200%;
+    }
+}
+
+
+/* responsive navbar ends */
+
+
+/* btn starts */
+
+.sm_btn {
+    height: 30px;
+    width: 90px;
+    background-color: #506b27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.sm_btn_cu {
+    height: 30px;
+    width: 100px;
+    background-color: none;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* btn ends */
+
+
+/* service starts */
+  .service{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    gap: 10px;
+    justify-content: center;
+    
+  }
+  .service-Div{
+    height: 400px;
+    width: 400px;
+    overflow: auto;
+    background: wheat;
+  }
+  @media screen and (max-width:815px) {
+      .service{
+        height: 270vh;
+      }
+      .main{
+        height: 280vh;
+      }
+      .box{
+        height: 280vh;
+      }
+  }
+  @media screen and (max-width:400px) {
+      .service{
+        height: 330vh;
+      }
+      .main{
+        height: 330vh;
+      }
+      .box{
+        height: 330vh;
+      }
+  }
+/* service ends  */
+
+/* footer starts */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    height: 400px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 150px;
+    width: 110vw;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  
+  /* footer ends  */
+  
